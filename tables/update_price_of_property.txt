@@ -1,0 +1,8 @@
+update property set S_price_R_price =1000000  where P_id='101A' ;
+update property set S_price_R_price =3000000  where P_id='102B' ;
+update property set S_price_R_price =2000000  where P_id='106B' ;
+update property set S_price_R_price =3300000  where P_id='104B' ;
+update property set S_price_R_price =4000000  where P_id='118C' ;
+update property set S_price_R_price =2400000  where P_id='109B' ;
+update property set S_price_R_price =3500000  where P_id='124B' ;
+update property set S_price_R_price =1700000  where P_id='129C' ;

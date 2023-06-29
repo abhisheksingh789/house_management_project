@@ -1,0 +1,20 @@
+INSERT INTO Agent (A_id, A_name, A_contact_no, A_email, A_address, A_username, A_password)
+VALUES
+  (1, 'Aarav Gupta', 1234567890, 'a.gupta@email.com', 'Nabin Nagar Road, Gorchuk, Guwahati, Assam', 'aaravg', 'password1'),
+  (2, 'Riya Singh', 2345678901, 'r.singh@email.com','Beltola Bazaar Road, Beltola, Guwahati, Assam', 'riyasingh', 'password2'),
+  (3, 'Arnav Patel', 3456789012, 'a.patel@email.com', 'Paltan Bazaar Road, Paltan Bazaar, Guwahati, Assam','akashsingh', 'password3'),
+  (4, 'Aanya Sharma', 4567890123, 'a.sharma@email.com','Six Mile Road, Six Mile, Lachit Nagar, Guwahati, Assam', 'aanyasharma', 'password4'),
+  (5, 'Rajesh Khanna', 5678901234, 'r.khanna@email.com','Hatigaon Main Road, Hatigaon, Guwahati, Assam', 'rkhanna', 'password5'),
+  (6, 'Kavita Singhania', 6789012345, 'kavita@email.com','Maligaon Flyover Road, Maligaon, Guwahati, Assam', 'kavitas', 'password6'),
+  (7, 'Amit Kumar', 7890123456, 'a.kumar@email.com','Panbazar Flyover Road, Panbazar, Guwahati, Assam', 'amitk', 'password7'),
+  (8, 'Ishaan Gupta', 8901234567, 'i.gupta@email.com', 'GNB Road, Silpukhuri, Guwahati, Assam', 'amandev','password8'),
+  (9, 'Neha Shah', 9012345678, 'neha.shah@email.com', 'Kahilipara Road, Kahilipara, Guwahati, Assam', 'nehashah', 'password9'),
+  (10, 'Rohan Sharma', 1234509876, 'rohan.sharma@email.com', 'Rehabari Flyover Road, Rehabari, Guwahati, Assam', 'rohans', 'password10'),
+  (11, 'Priya Patel', 2345609876, 'priya.patel@email.com', 'Christian Basti Flyover Road, Christian Basti, Guwahati, Assam', 'priyap', 'password11'),
+  (12, 'Aryan Singh', 3456709876, 'aryan.singh@email.com', 'Beltola Tiniali Road, Beltola, Guwahati, Assam', 'aryans', 'password12'),
+  (13, 'Sneha Sharma', 4567809876, 'sneha.sharma@email.com', 'GS Road, Bhangagarh, Guwahati, Assam', 'snehash', 'password13'),
+  (14, 'Nikhil Gupta', 5678909876, 'nikhil.gupta@email.com', 'Six Mile Flyover Road, Six Mile, Guwahati, Assam', 'nikhilg', 'password14'),
+  (15, 'Anjali Shah', 6789019876, 'anjali.shah@email.com', 'Chandmari Flyover Road, Chandmari, Guwahati, Assam', 'anjalish', 'password15'),
+  (16, 'Vikas Patel', 7890129876, 'vikas.patel@email.com',  'RG Baruah Road, Ganeshguri, Guwahati, Assam', 'vikasp', 'password16'),
+  (17, 'Pranav Desai', 8901230987, 'pranav.desai@email.com',  'Last Gate Road, Basistha Chariali, Guwahati, Assam', 'pranavd', 'password18'),
+  (18, 'Rohit Malhotra', 9012340987, 'rohit.malhotra@email.com',  'Hengerabari Road, Dispur, Guwahati, Assam', 'rohitm', 'password19');

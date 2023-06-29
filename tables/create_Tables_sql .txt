@@ -1,0 +1,116 @@
+
+     create table owner(
+     O_id int,
+     O_name varchar(255),
+     O_contact_no BIGINT,
+     O_email varchar(255),
+     O_address varchar(255),
+     primary key(O_id));
+Query OK, 0 rows affected (0.02 sec)
+
+
+
+    create table property(P_id varchar(255),
+    flat_type varchar(255),
+    P_name varchar(255),
+    P_type varchar(255),
+    sell_rent varchar(255),
+    P_area varchar(255),
+    Y_O_C int,
+    S_price_R_price int,
+    P_address varchar(255),
+    Status varchar(255),
+    primary key(P_id));
+
+
+
+
+   create table Agent(
+     A_id int,
+     A_name varchar(255),
+     A_contact_no BIGINT,
+    A_email varchar(255) UNIQUE,
+     A_address varchar(255),
+     A_username varchar(255) UNIQUE,
+     A_password varchar(255),
+     primary key(A_id));
+
+
+
+     create table Owns(
+     OW_id int,
+     PR_id varchar(255),
+     primary key(PR_id,OW_id),
+     foreign key (PR_id) references property(P_id),
+     foreign key (OW_id) references Owner(O_id));
+Query OK, 0 rows affected (0.03 sec)
+
+
+
+
+
+create table Manages(
+     AG_id int,
+     PR_id varchar(255),
+     primary key(PR_id,AG_id),
+     foreign key (PR_id) references property(P_id),
+     foreign key (AG_id) references Agent(A_id));
+
+
+
+create table Deals(
+     AGE_id int NOT NULL,
+     BU_id int NOT NULL,
+     prop_id varchar(255) NOT NULL,
+     primary key(BU_id,AGE_id,prop_id),
+     foreign key (BU_id) references Buyer(B_id),
+     foreign key (AGE_id) references Agent(A_id));
+
+
+
+create table Buyer(B_id int,B_name varchar(255),B_email varchar(255),B_contact_no BIGINT,B_address varchar(255),B_username varchar(255),B_password varchar(255),primary key(B_id));
+
+
+create table Contact(
+     OWE_id int,
+     AGEN_id int,
+     primary key(OWE_id,AGEN_id),
+     foreign key (OWE_id) references Owner(O_id),
+     foreign key (AGEN_id) references Agent(A_id));
+
+
+//create table T_details(
+  //   AGEN_id int,
+    // TR_id int,
+     //primary key(TR_id,AGEN_id),
+     //foreign key (TR_id) references transaction(T_id),
+     //foreign key (AGEN_id) references Agent(A_id));
+
+create table Transaction(
+    prop_id varchar(255),
+    T_id int NOT NULL,
+    S_price_R_price int,
+    sell_Rent_date date,
+    Agent_id int,
+    Buyer_id int,
+    PRIMARY KEY(T_id));
+   
+
+
+
+
+create table works_in(Off_id int,AGENT_id int,primary key (Off_id,AGENT_id),FOREIGN KEY (Off_id) REFERENCES office(Office_id) ON DELETE CASCADE,FOREIGN KEY (AGENT_id) REFERENCES agent(A_id) ON DELETE CASCADE));
+
+create table Deleted_Agent(
+     DA_id int,
+     DA_name varchar(255),
+     DA_contact_no BIGINT,
+    DA_email varchar(255) UNIQUE,
+     DA_address varchar(255),
+     DA_username varchar(255) UNIQUE,
+     DA_password varchar(255),
+     primary key(DA_id));
+
+
+
+
