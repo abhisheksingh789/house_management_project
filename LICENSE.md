@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2024 Abhishek Kumar Akash Singh Manish Kumar Aman Kumar
+Copyright (c) 2024 Abhishek Kumar, Akash Singh, Manish Kumar, and Aman Kumar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
