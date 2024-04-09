@@ -77,13 +77,20 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Authors
 - **Abhishek Kumar** - *Initial work* - [Your GitHub](https://github.com/abhisheksingh789)
+## Course Name - Database Management System CS241
+## Course Insrtructor - Dr. Sumit Mishra
 
-See also the list of [contributors](https://github.com/abhisheksingh789/house_management_project/tree/main/gitcontributors) who participated in this project.
+## College Name - Indian Institute of Information Technology Guwahati
+2nd Year 4th Sem
+## Contributors
 
-## Acknowledgments
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc.
+A heartfelt thank you to everyone who has contributed to the development of HomeSphere. Your hard work is much appreciated!
+
+- [Abhishek Kumar](https://github.com/abhisheksingh789) - Project Lead
+- [Akash Singh](https://github.com/akashsingh011) - Documentation Specialist
+- [Manish Kumar](https://github.com/manish92596) - Frontend Developer
+- [Aman Kumar](https://github.com/amankr2076) - Backend Developer
+
 
 ---
 
