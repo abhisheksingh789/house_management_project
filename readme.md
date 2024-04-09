@@ -77,6 +77,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Authors
 - **Abhishek Kumar** - *Initial work* - [Your GitHub](https://github.com/abhisheksingh789)
+
 ## Course Name - Database Management System CS241
 ## Course Insrtructor - Dr. Sumit Mishra
 
