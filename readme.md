@@ -88,7 +88,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 A heartfelt thank you to everyone who has contributed to the development of HomeSphere. Your hard work is much appreciated!
 
 - [Abhishek Kumar](https://github.com/abhisheksingh789) - Project Lead
-- [Akash Singh](https://github.com/akashsingh011) - Documentation Specialist
 - [Manish Kumar](https://github.com/manish92596) - Frontend Developer
 - [Aman Kumar](https://github.com/amankr2076) - Backend Developer
 
